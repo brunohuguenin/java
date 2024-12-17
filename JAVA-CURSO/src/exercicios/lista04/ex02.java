@@ -30,6 +30,5 @@ public class ex02 {
         }
 
         scan.close();
-
     }
 }
