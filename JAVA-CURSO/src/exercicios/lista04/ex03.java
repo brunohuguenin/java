@@ -9,9 +9,12 @@ public class ex03 {
             System.out.print(arrayA[i] + " ");
         }
 
-        int[] arrayB = new int[15];
+
+        // O motivo de criar o arrayB do tipo double é porque o retorno da função sqrt
+        // da classe Math retorna um tipo double
+        double[] arrayB = new double[15];
         for (int i = 0; i < arrayA.length; i++) {
-            arrayB[i] = arrayA[i] * arrayA[i];
+            arrayB[i] = Math.sqrt(arrayA[i]);
         }
         System.out.println();
 
