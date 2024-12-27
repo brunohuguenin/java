@@ -1,10 +1,10 @@
-package exercicios.lista02;
+package exercicios.exAulas14e15;
 
 import java.util.Scanner;
 
 public class ex01 {
     public static void main(String[] args) {
-        // Faça um rpgrama que peça ois números e impima o maior deles
+        // Faça um rpgrama que peça os números e impima o maior deles
 
         Scanner valor = new Scanner(System.in);
         System.out.print("Insira o primeiro número: ");
