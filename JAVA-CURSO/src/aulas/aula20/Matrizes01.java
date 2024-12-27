@@ -25,7 +25,7 @@ public class Matrizes01 {
         notasAlunos[3][3] = 5.3;
 
         System.out.println("A média para ser aprovado no Bimestre é 7.5");
-        System.out.println("No primeiro Bimestre, os alunos obtiveram as seguintes notas e status:");
+        System.out.println("No primeiro Bimestre, os alunos obtiveram as seguintes notas e status:\n");
 
         for (int i = 0; i < notasAlunos.length; i++) {
             System.out.printf("Aluno %d: ", i + 1);
