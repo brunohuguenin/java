@@ -2,9 +2,8 @@ package exercicios.exAula13;
 
 import java.util.Scanner;
 
-public class Lista01 {
+public class ex04 {
     public static void main(String[] args) {
-
         // Faça um programa que peça quatro notas bimestrais e mostre a média
         Scanner nota = new Scanner(System.in);
 
