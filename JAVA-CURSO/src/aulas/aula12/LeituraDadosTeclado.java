@@ -9,7 +9,7 @@ public class LeituraDadosTeclado {
         System.out.println("Digite seu nome completo: ");
         String nomeCompleto = scan.nextLine();
 
-        System.out.printf("Seu nome é %s, correto? ", nomeCompleto);
+        System.out.printf("Seu nome é %s", nomeCompleto);
 
         System.out.println();
         System.out.print("Digite seu primeiro nome: ");
@@ -21,6 +21,8 @@ public class LeituraDadosTeclado {
         System.out.print("Qual é sua altura: ");
         double altura = scan.nextDouble();
 
-        System.out.printf("Seu primeiro nome é %s, sua idade é igual a %d e sua altura é %2f, correto ?", primeiroNome, idade, altura);
+        System.out.printf("Seu primeiro nome é %s, sua idade é a %d anos e sua altura é %.2fm", primeiroNome, idade, altura);
+
+
     }
 }

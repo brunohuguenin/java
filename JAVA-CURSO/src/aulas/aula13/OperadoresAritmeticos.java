@@ -19,5 +19,11 @@ public class OperadoresAritmeticos {
 
         resultado = resultado % 4;
         System.out.println("Novo resultado: " + resultado);
+
+        int a = 20, b = 7;
+        System.out.println("Divisão, usando o INT, de 20 e 7 = " + (a / b));
+
+        float c = 20, d = 7;
+        System.out.println("Divisão, usando o DOUBLE, de 20 e 7 = " + (c / d));
     }
 }
