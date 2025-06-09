@@ -1,6 +1,7 @@
-package JavaComLoianeGroner.Aulas.aula24.teste;
+package aulas.aula24.teste;
 
-import JavaComLoianeGroner.Aulas.aula24.dominio.Carro;
+
+import aulas.aula24.dominio.Carro;
 
 public class TesteCarro {
     public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class TesteCarro {
         Carro fusca = new Carro();
         fusca.marca = "Volkswagen";
         fusca.modelo = "Fusca";
-        fusca.numPassageiros = 4;''
+        fusca.numPassageiros = 4;
 
         System.out.printf("\nMarca do carro: %s\nModelo: %s\nNúmeros de passageiros: %d\n", fusca.marca, fusca.modelo, fusca.numPassageiros);
 

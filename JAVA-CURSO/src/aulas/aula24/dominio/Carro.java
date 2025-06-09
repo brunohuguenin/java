@@ -1,4 +1,4 @@
-package JavaComLoianeGroner.Aulas.aula24.dominio;
+package aulas.aula24.dominio;
 
 public class Carro {
    public String marca;
