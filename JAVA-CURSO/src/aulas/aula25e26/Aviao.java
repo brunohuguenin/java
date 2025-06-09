@@ -1,4 +1,4 @@
-package aulas.aula25;
+package aulas.aula25e26;
 
 public class Aviao {
     String modelo;
