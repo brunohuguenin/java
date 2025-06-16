@@ -11,6 +11,7 @@ public class ex09 {
 
         double temCelsius = 5 * ((temFarenHeit - 32) / 9);
 
+
         System.out.printf("A temperatura de %.2fºF é equivalente a %.2fºC", temFarenHeit, temCelsius);
     }
 }
