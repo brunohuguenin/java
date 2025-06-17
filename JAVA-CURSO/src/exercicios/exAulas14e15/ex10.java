@@ -19,5 +19,7 @@ public class ex10 {
         else {
             System.out.println("Valor inválido, seu Infeliz!");
         }
+
+        scanner.close();
     }
 }
