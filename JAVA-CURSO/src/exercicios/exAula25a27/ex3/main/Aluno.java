@@ -1,4 +1,4 @@
-package exercicios.exAulas25a27.ex3.main;
+package exercicios.exAula25a27.ex3.main;
 
 public class Aluno {
     public String nome;

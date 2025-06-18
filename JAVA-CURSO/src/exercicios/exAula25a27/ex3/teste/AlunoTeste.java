@@ -1,6 +1,6 @@
-package exercicios.exAulas25a27.ex3.teste;
+package exercicios.exAula25a27.ex3.teste;
 
-import exercicios.exAulas25a27.ex3.main.Aluno;
+import exercicios.exAula25a27.ex3.main.Aluno;
 
 import java.util.Scanner;
 
