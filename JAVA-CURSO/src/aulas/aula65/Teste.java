@@ -7,6 +7,6 @@ package aulas.aula65;
 )
 public class Teste {
     public static void main(String[] args) {
-        
+
     }
 }
