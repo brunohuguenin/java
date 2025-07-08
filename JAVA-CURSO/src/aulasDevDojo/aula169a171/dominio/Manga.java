@@ -92,8 +92,12 @@ public class Manga implements Comparable<Manga>{
 //            return 1;
 //        }
 
-        return this.nome.compareTo(outroManga.getNome());
-        //return Double.compare(preco, outroManga.getPreco());
+        //return this.nome.compareTo(outroManga.getNome());
+
+        //return Double.valueOf(preco).compareTo(outroManga.getPreco()); // NÃO É POSSÍVEL usar o compareTo() em tipos primitivos
+        return Double.compare(preco, outroManga.getPreco()); // Daí fez-se o boxing para a classe Wrapper Double
+        // As duas linhas acima são iguais
+
         //return this.id.compareTo(outroManga.getId());
     }
 }
