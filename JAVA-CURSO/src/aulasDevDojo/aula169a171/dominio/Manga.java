@@ -50,10 +50,6 @@ public class Manga implements Comparable<Manga>{
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public String getNome() {
         return nome;
     }
@@ -80,18 +76,6 @@ public class Manga implements Comparable<Manga>{
 
     @Override
     public int compareTo(Manga outroManga) {
-        // negativo -> se o this > outroManga
-        // se this == outroManga, return 0
-        // positivo -> se this > outroManga
-
-//        if (this.id < outroManga.getId()) {
-//            return -1;
-//        } else if (this.id.equals(outroManga.getId())) {
-//            return 0;
-//        } else {
-//            return 1;
-//        }
-
         //return this.nome.compareTo(outroManga.getNome());
 
         //return Double.valueOf(preco).compareTo(outroManga.getPreco()); // NÃO É POSSÍVEL usar o compareTo() em tipos primitivos
