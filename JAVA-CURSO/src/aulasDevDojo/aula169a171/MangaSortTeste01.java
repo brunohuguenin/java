@@ -45,6 +45,5 @@ public class MangaSortTeste01 {
         for (Manga manga : mangas) {
             System.out.println(manga);
         }
-
     }
 }
