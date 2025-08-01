@@ -30,6 +30,10 @@ public class Carros implements Comparable<Carros>{
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getMarca() {
         return Marca;
     }
@@ -57,7 +61,8 @@ public class Carros implements Comparable<Carros>{
 
     @Override
     public int compareTo(Carros outro) {
-        return Double.compare(preco, outro.getPreco());
+        //return getMarca().compareTo(outro.getMarca()); // exemplo do teste com TreeSet
+        return Double.compare(getPreco(), outro.getPreco());
     }
 
 
